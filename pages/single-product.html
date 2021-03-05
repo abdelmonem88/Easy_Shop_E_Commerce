@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="../assets/css/all.min.css">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+      <!-- Main style sheet -->
+      <link rel="stylesheet" href="../assets/css/main.css">
+      <title>Easy Shop</title>
+   </head>
+
+   <body>
+      <!-- Preloader Start -->
+      <div class="prolouder-wrapper">
+         <div class="preloader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+      <!-- Preloader End -->
+
+      <!-- Header Start -->
+      <header>
+         <div class="container">
+            <nav>
+               <div class="navbar">
+                  <div class="logo">
+                     <a href="../index.html">
+                        <h1>easy shop</h1>
+                     </a>
+                  </div>
+                  <ul class="user_details d-flex">
+                     <li class="login">
+                        <a href=" login.html"><i class="fas fa-user"></i> login</a>
+                     </li>
+                     <li class="loged">
+                        <a href="#"><i class="fas fa-user"></i><span class="user">Hello,<span
+                                 class="current-user">Abdelmonem</span> </span></a>
+                        <ul class="submenu">
+                           <li><a href="../index.html" class="logout-btn"><i class="fas fa-sign-out-alt"></i> log
+                                 out</a></li>
+                           <li><a href="wishlist.html" class="wishlist-btn"><i class="fas fa-heart"></i> wishlist</a>
+                           </li>
+                        </ul>
+                     <li class="cart">
+                        <a href="#"><i class="fas fa-shopping-cart"></i><span>cart</span></a>
+                        <span class="cart-items-count">0</span>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <!-- Header End -->
+
+      <!-- Cart Overlay Start -->
+      <div class="overlay">
+         <div class="container">
+            <div class="row">
+               <div class="cart py-2">
+                  <div class="cart-heading d-flex justify-content-between align-items-center">
+                     <h2>your cart</h3>
+                        <span class="close-cart">
+                           <i class="fas fa-times"></i>
+                        </span>
+                  </div>
+                  <div class="cart-items py-3">
+                     <h3 class="no-prodcuts py-5 text-center">Ooops..your cart is empty!!</h3>
+                  </div>
+                  <h3 class="cart-total text-center my-3"> Total: 0 EGP</h3>
+                  <button class="checkout btn d-block mx-auto ">Checkout</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Cart Overlay End -->
+
+      <div class="page-heading py-4 mb-5">
+         <div class="container">
+            <div class="row">
+               <h2><a href="../index.html">Home</a> / Single product</h2>
+            </div>
+         </div>
+      </div>
+
+
+      <!-- Single Product Start -->
+      <div class="single-product py-5 text-capitalize">
+         <div class="container">
+            <div class="row" id="single-product">
+               <!-- <div class="col-md-3 col-12">
+                  <img class="img-fluid" src="../assets/images/1.jpg" alt="">
+               </div>
+               <div class="col-md-9 col-12">
+                  <div class="product-details">
+                     <h2 class="product-name mb-2 fs-1">name</h2>
+                     <h5 class="product-brand mb-2">brand</h5>
+                     <h4 class="product-price mb-2">3500 EGP</h4>
+                     <h5 class="product-old-price mb-2"></h5>
+                     <p class="product-desc mb-2">
+                        6.5-inch Super AMOLED Notched Screen
+                        512 GB Internal Storage
+                        Dual 12 MP Back Camera, 7 MP Front Camera
+                        Hexa-core CPU, 4 GB RAM
+                        Li-Ion 3174 mAh Battery
+                        OS: iOS 12, Face ID
+                     </p>
+                  </div>
+               </div> -->
+            </div>
+         </div>
+      </div>
+      <!-- Single Product End -->
+
+      <!-- Footer Start -->
+      <footer class="py-2">
+         <p>Developed by <a href="https://abdelmonem88.github.io/abdelmonem_darweesh_portfolio/"
+               target="_blank">Abdelmonem Darweesh</a></p>
+      </footer>
+      <!-- Footer End -->
+
+      <script src="assest/js/jquery.min.js"></script>
+      <script src="assest/js/bootstrap.min.js"></script>
+      <script type="module" src="../assets/js/single-product.js"></script>
+   </body>
+
+</html>

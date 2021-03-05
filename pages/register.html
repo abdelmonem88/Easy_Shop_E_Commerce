@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="../assets/css/all.min.css">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+      <!-- Main style sheet -->
+      <link rel="stylesheet" href="../assets/css/main.css">
+      <title>Easy Shop</title>
+   </head>
+
+   <body>
+      <!-- Preloader Start -->
+      <div class="prolouder-wrapper">
+         <div class="preloader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+      <!-- Preloader End -->
+
+      <!-- Header Start -->
+      <header>
+         <div class="container">
+            <nav>
+               <div class="navbar">
+                  <div class="logo">
+                     <a href="../index.html">
+                        <h1>easy shop</h1>
+                     </a>
+                  </div>
+                  <ul class="user_details d-flex">
+                     <li class="login">
+                        <a href=" login.html"><i class="fas fa-user"></i> login</a>
+                     </li>
+                     <li class="loged">
+                        <a href="#"><i class="fas fa-user"></i><span class="user">Hello,Abdelmonem</span></a>
+                        <ul class="submenu">
+                           <li><a href="index.html"><i class="fas fa-sign-out-alt"></i> log out</a></li>
+                           <li><a href="wishlist.html"><i class="fas fa-heart"></i> wishlist</a></li>
+                        </ul>
+                     </li>
+                     <li class="cart">
+                        <a href="#"><i class="fas fa-shopping-cart"></i><span>cart</span></a>
+                        <span class="cart-items-count">0</span>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <!-- Header End -->
+
+      <!-- Cart Overlay Start -->
+      <div class="overlay">
+         <div class="container">
+            <div class="row">
+               <div class="cart py-2">
+                  <div class="cart-heading d-flex justify-content-between align-items-center">
+                     <h2>your cart</h2>
+                     <span class="close-cart">
+                        <i class="fas fa-times"></i>
+                     </span>
+                  </div>
+                  <div class="cart-items py-3">
+                     <h3 class="no-prodcuts py-5 text-center">Ooops...no products in your cart!!</h3>
+                     <a href="./products.html" class="satrt-shopping btn link d-block mx-auto">Start Shopping</a>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Cart Overlay End -->
+
+
+      <!-- Login Form Start -->
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-5 col-md-8 col-10 mx-auto">
+               <div class="form-wrapper">
+                  <form name="register" id="register-form" class="form py-3">
+                     <h2 class="form-title text-center text-capitalize">Register</h2>
+                     <span class="error register-error"></span>
+                     <div class="input-control">
+                        <input type="text" id="register-username" placeholder="Username">
+                        <span class="error username-error">*please enter your username</span>
+                     </div>
+                     <div class="input-control">
+                        <input type="password" id="register-password" placeholder="Password">
+                        <span class="error password-error">*please enter your password</span>
+                     </div>
+                     <div class="input-control">
+                        <input type="email" id="register-email" placeholder="Email">
+                        <span class="error password-error">*please enter your email</span>
+                     </div>
+                     <div class="input-control terms-conditions">
+                        <input type="checkbox" id="terms" class="terms">
+                        <label>accept all terms and conditions</label>
+                        <span class="error terms-error">*please accept terms and conditions</span>
+                     </div>
+                     <input type="submit" id="login-submit" class="btn d-block mx-auto" value="Register">
+                     <p class="from-redirect text-center">Already have an account? you can <a
+                           href="./login.html">Login</a> now!</p>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Login Form End -->
+
+      <!-- Footer Start -->
+      <footer class="py-2">
+         <p>Developed by <a href="https://abdelmonem88.github.io/abdelmonem_darweesh_portfolio/"
+               target="_blank">Abdelmonem Darweesh</a></p>
+      </footer>
+      <!-- Footer End -->
+
+      <script src="assest/js/jquery.min.js"></script>
+      <script src="assest/js/bootstrap.min.js"></script>
+      <script type="module" src="../assets/js/register.js"></script>
+   </body>
+
+</html>

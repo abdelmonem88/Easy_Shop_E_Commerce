@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="./assets/css/all.min.css">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+      <!-- Main style sheet -->
+      <link rel="stylesheet" href="./assets/css/main.css">
+      <title>Easy Shop</title>
+   </head>
+
+   <body>
+      <!-- Preloader Start -->
+      <div class="prolouder-wrapper">
+         <div class="preloader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+      <!-- Preloader End -->
+
+      <!-- Header Start -->
+      <header>
+         <div class="container">
+            <nav>
+               <div class="navbar">
+                  <div class="logo">
+                     <a href="index.html">
+                        <h1>easy shop</h1>
+                     </a>
+                  </div>
+                  <ul class="user_details d-flex">
+                     <li class="login">
+                        <a href=" ./pages/login.html"><i class="fas fa-user"></i> login</a>
+                     </li>
+                     <li class="loged">
+                        <a href="#"><i class="fas fa-user"></i><span class="user">Hello,<span
+                                 class="current-user">Abdelmonem</span> </span></a>
+                        <ul class="submenu">
+                           <li><a href="../index.html" class="logout-btn"><i class="fas fa-sign-out-alt"></i> log
+                                 out</a></li>
+                           <!-- <li><a href="wishlist.html" class="wishlist-btn"><i class="fas fa-heart"></i> wishlist</a>
+                           </li> -->
+                        </ul>
+                     </li>
+                     <li class="cart">
+                        <a href="#"><i class="fas fa-shopping-cart"></i><span>cart</span></a>
+                        <span class="cart-items-count">0</span>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <!-- Header End -->
+
+      <!-- Cart Overlay Start -->
+      <div class="overlay">
+         <div class="container">
+            <div class="row">
+               <div class="cart py-2">
+                  <div class="cart-heading d-flex justify-content-between align-items-center">
+                     <h2>your cart</h2>
+                     <span class="close-cart">
+                        <i class="fas fa-times"></i>
+                     </span>
+                  </div>
+                  <div class="cart-items py-3">
+                     <h3 class="no-prodcuts py-5 text-center">Ooops..your cart is empty!!</h3>
+                     <!-- single item start -->
+                     <!-- <div class="cart-item d-flex">
+                        <div class="item-body">
+                           <img src="./assets/images/1.jpg" class="img-fluid" alt="">
+                           <div class="item-details align-self-center">
+                              <h4 class="item-name">name</h4>
+                              <h6 class="item-brand">brand</h6>
+                              <h5 class="item-price">3500 EGP</h5>
+                           </div>
+                        </div>
+                        <div class="item-amount align-self-center d-flex">
+                           <button class="increase btn">
+                              <i class="fas fa-chevron-up"></i>
+                           </button>
+                           <span class="amount">1</span>
+                           <button class="decrease btn">
+                              <i class="fas fa-chevron-down"></i>
+                           </button>
+                        </div>
+                     </div> -->
+                     <!-- single item end -->
+                  </div>
+                  <h3 class="cart-total text-center my-3"> Total: 0 EGP</h3>
+                  <button class="checkout btn d-block mx-auto ">Checkout</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Cart Overlay End -->
+
+      <!-- Home Section Start -->
+      <section id="home">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="hero_content">
+                     <div class="text-content">
+                        <h2>all about <span>smart phones</span></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Nam, eos expedita unde nisi
+                           dicta magni atque cumque natus <br> possimus ea minus ratione earum nostrum repellendus.</p>
+                     </div>
+                     <a href="./pages/products.html" class="btn link">all products <i
+                           class="fas fa-external-link-alt"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!-- newsletter Section Start-->
+      <div id="newsletter" class="py-5">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-6 col-12">
+                  <div class="text-content">
+                     <h3>Do you want to get extra discount?</h3>
+                     <p>join to our newsletter service to get <span>10%</span> extra discount.</p>
+                  </div>
+               </div>
+               <div class="col-md-6 col-12">
+                  <form class="d-flex justify-content-between">
+                     <input type="text" placeholder="Enter your E-mail">
+                     <input type="submit">
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- newsletter Section End-->
+
+      <!-- Featured Section Start -->
+      <section id="featured" class="py-5">
+         <div class="container">
+            <div class="row">
+               <div class="section-header">
+                  <h2 class="section-title">Featured</h2>
+                  <span class="underline"></span>
+               </div>
+            </div>
+            <div class="row" id="featured-products">
+               <!-- Single Product Start -->
+               <!-- <div class="col-md-4 col-sm-8 mx-auto">
+                  <div class="card item">
+                     <img src="./assets/images/1.jpg" class="card-img-top" alt="...">
+                     <div class="card-body item-body">
+                        <h3 class="card-title">name</h5>
+                        <h5>brand</h5>
+                        <h4>3500 EGP</h4>
+                        <a href="./pages/single-product.html" target="_blank" class="btn link details-btn">More
+                           Details</a>
+                        <div class="item-btns d-flex flex-column">
+                           <a href="cart.html" class="add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                           <a href="wishlist.html" class="add-to-wishlist"><i class="fas fa-heart"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div> -->
+               <!-- Single Product End -->
+            </div>
+         </div>
+      </section>
+      <!-- Featured Section End -->
+
+      <!-- on-sale Section Start -->
+      <!-- <section id="on-sale" class="py-5">
+         <div class="container">
+            <div class="row">
+               <div class="section-header">
+                  <h2 class="section-title">On-Sale</h2>
+                  <span class="underline"></span>
+               </div>
+            </div>
+            <div class="row" id="onSale-products">
+               <div class="col-md-4 col-sm-8 mx-auto">
+                  <div class="card item">
+                     <img src="./assets/images/1.jpg" class="card-img-top" alt="...">
+                     <div class="card-body item-body">
+                        <h3 class="card-title">name</h5>
+                           <h5>brand</h5>
+                           <h4>3500 EGP</h4>
+                           <h5 style="text-decoration: line-through;">4500 EGP</h5>
+                           <a href="./pages/single-product.html" target="_blank" class="btn link details-btn">More
+                              Details</a>
+                           <div class="item-btns d-flex flex-column">
+                              <a href="cart.html" class="add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                              <a href="wishlist.html" class="add-to-wishlist"><i class="fas fa-heart"></i></a>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> -->
+      <!-- on-sale Section End -->
+
+      <!-- Footer Start -->
+      <footer class="py-2">
+         <p>Developed by <a href="https://abdelmonem88.github.io/abdelmonem_darweesh_portfolio/"
+               target="_blank">Abdelmonem Darweesh</a></p>
+      </footer>
+      <!-- Footer End -->
+
+      <script src="assest/js/jquery.min.js"></script>
+      <script src="assest/js/bootstrap.min.js"></script>
+      <script type="module" src="assets/js/main.js"></script>
+   </body>
+
+</html>

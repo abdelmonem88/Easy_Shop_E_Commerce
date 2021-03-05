@@ -1,0 +1,14 @@
+{
+  "name": "e-commerce-project",
+  "version": "1.0.0",
+  "description": "E-Commerce project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdelmonem",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
