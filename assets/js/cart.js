@@ -49,7 +49,7 @@ const cartItemsDOM = (cartItems, target) => {
              <img src="${image}" class="img-fluid" alt="">
              <div class="item-details align-self-center">
                 <h4 class="item-name">${name}</h4>
-                <h6 class="item-brand">${brand}</h6>
+                <h6 class="item-brand text-capitalize">${brand}</h6>
                 <h5 class="item-price">${price} EGP</h5>
              </div>
           </div>
