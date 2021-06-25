@@ -17,7 +17,7 @@ const getLocalStorage = (item) => {
  return storageItem;
 };
 
-//set data to localStorage
+//set data to localStorage.
 const setLocalStorage = (item, value) => {
  localStorage.setItem(item, JSON.stringify(value));
 };
